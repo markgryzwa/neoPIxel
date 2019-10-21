@@ -26,7 +26,7 @@ void setup(){
 // -------------------------------------------------------------------------------------
 
 void loop(){
-  for(int event=1; event<7; event++){
+  for(int event=1; event<6; event++){
     colorFill(color[event], 5000);
     strobe(color[event]);
   }
