@@ -52,7 +52,7 @@ void colorWipe(uint32_t c, uint8_t wait) {
 }
 
 void strobe(uint32_t color){
-  for(int z=0; z<500; z++){
+  for(int z=0; z<100; z++){
     colorFill(color,0);
     delay(50);
     colorFill(off,0);
